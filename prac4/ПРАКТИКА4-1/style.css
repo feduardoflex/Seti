@@ -1,0 +1,65 @@
+.page {
+    font-family: sans-serif;
+  }
+  
+  a {
+    color: white;
+  }
+  .header, footer {
+    height: 50px;
+    background-color: black;
+    color: white;
+    padding-left: 29vw;
+    box-sizing: border-box;
+  }
+  .header {
+    font-size: 0;
+    width: 100%;
+    margin: auto;
+    display: inline-flex;
+  }
+  .logo {
+    font-size: 20px;
+    display:table;
+  }
+  .menu {
+    font-size: 16px;
+    display: inline;
+  }
+  
+  .menu li {
+    margin-right: 5px;
+    display: inline;
+  }
+  
+  .columns {
+    width: 800px;
+    margin: 50px auto;
+    font-size: 0;
+  }
+  
+  .left {
+    width: 200px;
+    margin-right: 10px;
+    background-color: black;
+    box-sizing: border-box;
+    padding: 20px;
+    font-size: 16px;
+    vertical-align: top;
+    display: inline-block;
+  }
+  .right {
+    width: 590px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    padding: 20px;
+    font-size: 16px;
+    vertical-align: top;
+    display: inline-block;
+  }
+  
+  .left a {
+    margin-top: 5px;
+    display: block;
+  }
+  
