@@ -1,18 +1,18 @@
 @import url(reset.css);
 .page {
-  height: 3000px;
+  height: 2500px;
   background-image: url(https://c1.staticflickr.com/6/5173/5436446554_9244788c36_b.jpg);
-  position: static;
-  display: grid;
+  position: relative;
   justify-content: center;
+  display: grid;
 }
 
 @keyframes example {
-	0% {top:-200px;}
-	25% {top:-300px;}
-	50% {top:-2500px;}
-	75% {top:-2400px;}
-	100% {top:-200px;}
+	0% {top:-700px;}
+	25% {top:-1500px;}
+	50% {top:-2000px;}
+	75% {top:-1500px;}
+	100% {top:-700px;}
 }
 
 .rocket {
@@ -33,8 +33,8 @@
   width: 300px;
   height: 300px;
   background-position: center;
-  position: static;
-
+  position: relative;
+  top: -100px;
 }
 
 .venus {
@@ -43,7 +43,8 @@
   width: 300px;
   height: 300px;
   background-position: center;
-  position: static;
+  position: relative;
+  top: 100px;	
  }
 
  .earth {
@@ -52,7 +53,7 @@
 	width: 300px;
 	height: 300px;
 	background-position: center;
-	position: static;
+	position: relative;
  }
 
 .jupiter {
@@ -61,7 +62,8 @@
 	width: 300px;
 	height: 300px;
 	background-position: center;
-	position: static;
+	position: relative;
+	top: -200px;
 }
 
 .saturn {
@@ -70,7 +72,8 @@
 	width: 300px;
 	height: 300px;
 	background-position: center;
-	position: static;
+	position: relative;
+	top: -300px;
 }
 
 .uran {
@@ -79,7 +82,8 @@
 	width: 300px;
 	height: 300px;
 	background-position: center;
-	position: static;
+	position: relative;
+	top: -400px;
 }
 
 
@@ -89,7 +93,8 @@
 	width: 300px;
 	height: 300px;
 	background-position: center;
-	position: static;
+	position: relative;
+	top: 200px;
 }
 
 .sun {
@@ -98,7 +103,7 @@
 	width: 300px;
 	height: 300px;
 	background-position: center;
-	position: static;
+	position: relative;
 }
 
 .neptun {
@@ -107,5 +112,6 @@
 	width: 400px;
 	height: 400px;
 	background-position: center;
-	position: static;
+	position: relative;
+	top: -500px;
 }
